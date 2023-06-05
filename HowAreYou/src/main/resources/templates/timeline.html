@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>timeline</title>
+        <link href="HowAreYou\src\main\resources\templates\css\bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <p>こんにちは！Aさん</p>
+            <div class="border p-3 m-2">
+                <h1>Aさん</h1>
+                <h2 class="border-bottom border-3">【To Do】</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">To Do</th>
+                            <th scope="col">達成度</th>
+                            <th scope="col">様子</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>task1</td>
+                            <td><label for="file">70%</label>
+                                <progress id="file" max="100" value="70"> 70% </progress></td>
+                            <td class="bg-primary text-white">順調</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>task2</td>
+                            <td><label for="file">10%</label>
+                                <progress id="file" max="100" value="10"> 10% </progress></td>
+                            <td class="bg-danger text-white">助けて！</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>task3</td>
+                            <td><label for="file">50%</label>
+                                <progress id="file" max="100" value="50"> 50% </progress></td>
+                            <td class="bg-secondary text-white">普通</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-primary">To Doを追加/編集/削除</button>
+                <h2 class="border-bottom border-3">【Status】</h2>
+                <p><span class="btn bg-danger text-white">会議中</span> <span class="btn bg-success text-white">対応可</span></p>
+                <button class="btn btn-primary">Statusを変更</button>
+            </div>
+            <div class="border p-3 m-2">
+                <h1>Bさん</h1>
+                <h2 class="border-bottom border-3">【To Do】</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">To Do</th>
+                            <th scope="col">達成度</th>
+                            <th scope="col">様子</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>task1</td>
+                            <td><label for="file">70%</label>
+                                <progress id="file" max="100" value="70"> 70% </progress></td>
+                            <td class="bg-primary text-white">順調</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>task2</td>
+                            <td><label for="file">10%</label>
+                                <progress id="file" max="100" value="10"> 10% </progress></td>
+                            <td class="bg-danger text-white">助けて！</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>task3</td>
+                            <td><label for="file">50%</label>
+                                <progress id="file" max="100" value="50"> 50% </progress></td>
+                            <td class="bg-secondary text-white">普通</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 class="border-bottom border-3">【Status】</h2>
+                <p><span class="btn bg-primary text-white">仕事中</span> <span class="btn bg-danger text-white">対応不可</span></p>
+                <button class="btn btn-success">助ける</button>
+            </div>
+            <div class="border p-3 m-2">
+                <h1>Cさん</h1>
+                <h2  class="border-bottom border-3">【To Do】</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">To Do</th>
+                            <th scope="col">達成度</th>
+                            <th scope="col">様子</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>task1</td>
+                            <td><label for="file">70%</label>
+                                <progress id="file" max="100" value="70"> 70% </progress></td>
+                            <td class="bg-primary text-white">順調</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>task2</td>
+                            <td><label for="file">10%</label>
+                                <progress id="file" max="100" value="10"> 10% </progress></td>
+                            <td class="bg-danger text-white">助けて！</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>task3</td>
+                            <td><label for="file">50%</label>
+                                <progress id="file" max="100" value="50"> 50% </progress></td>
+                            <td class="bg-secondary text-white">普通</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 class="border-bottom border-3">【Status】</h2>
+                <p><span class="btn bg-success text-white">休憩中</span> <span class="btn bg-success text-white">対応可</span></p>
+                <button class="btn btn-success">助ける</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
