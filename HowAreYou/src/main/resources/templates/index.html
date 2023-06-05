@@ -32,7 +32,7 @@
 <img class="mb-3" th:src="@{/images/dansi.png}" width="100">
 <img class="mb-3" th:src="@{/images/josei.png}" width="100">
 <h2 class="mb-3 border-bottom border-3 headlineAl">【Log In】</h2>
-<h2 th:if="${isUserDoesNotExistError}" class="text-danger">ユーザが見つかりません</h2>
+<h2 th:if="${isUserDoesNotExistError}" class="text-danger">ユーザ見つかりません</h2>
 <h2 th:if="${isUidValidationError}" class="text-danger">ユーザIDに異常があります</h2>
 
 <form class="mb-3 row g-3 ro-cols-auto" method="get" th:action="@{/user/enter}">
